@@ -30,7 +30,15 @@ Before you begin, ensure that you have the following installed:
 - **mysql**: Dockerfile and configurations for the MySQL database.
 
 ## Dockerfile(Database)
+Here's our logo (hover to see the title text):
 
+Inline-style: 
+![alt text](images/33.PNG "Logo Title Text 1")
+
+Reference-style: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
 ## Dockerfile(Backend)
 
 ## Dockerfile(Frontend)
