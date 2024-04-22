@@ -3,9 +3,6 @@ layout: post
 title: Docker Three Tier Architecture 
 ---
 
-
-
-
 # Three-Tier Application Deployment using Dockerfile
 
 ![Architecture](assets/Infra.gif)
