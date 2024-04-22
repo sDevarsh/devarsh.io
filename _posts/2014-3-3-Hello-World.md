@@ -1,6 +1,6 @@
-![image](https://github.com/chitt31/chitt31.github.io/assets/139124423/54ffe54a-c09d-463b-9d88-9060617f91ec)---
+
 layout: post
-title: You're up and running!
+title: Docker Three Tier Architecture 
 ---
 
 Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
