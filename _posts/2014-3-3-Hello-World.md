@@ -30,7 +30,7 @@ Before you begin, ensure that you have the following installed:
 - **mysql**: Dockerfile and configurations for the MySQL database.
 
 ## Dockerfile(Database)
-!(https://github.com/chitt31/chitt31.github.io/blob/d15c13131b884c2b31f76de04526c1f2b80a63fe/images/33.PNG "Logo Title Text 1")
+![Alt Text](https://github.com/chitt31/chitt31.github.io/blob/d15c13131b884c2b31f76de04526c1f2b80a63fe/images/33.PNG "Logo Title Text 1")
 
 ## Dockerfile(Backend)
 
