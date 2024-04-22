@@ -27,7 +27,8 @@ Before you begin, ensure that you have the following installed:
 - **mysql**: Dockerfile and configurations for the MySQL database.
 
 ## Dockerfile(Database)
-!({{ site.baseurl }}/images/33.png)
+![Alt Text](https://raw.githubusercontent.com/chitt31/chitt31.github.io/master/images/33.PNG)
+
 
 ## Dockerfile(Backend)
 
