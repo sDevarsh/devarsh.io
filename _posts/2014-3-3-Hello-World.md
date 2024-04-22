@@ -27,7 +27,7 @@ Before you begin, ensure that you have the following installed:
 - **mysql**: Dockerfile and configurations for the MySQL database.
 
 ## Dockerfile(Database)
-![image](/blob/master/images/33.PNG) 
+![images]({{ site.baseurl }}/images/33.png)
 
 ## Dockerfile(Backend)
 
