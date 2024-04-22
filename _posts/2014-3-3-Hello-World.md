@@ -9,9 +9,6 @@ Next you can update your site name, avatar and other options using the _config.y
 
 The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
 # Three-Tier Application Deployment using Dockerfile
-[![LinkedIn](https://img.shields.io/badge/Connect%20with%20me%20on-LinkedIn-blue.svg)](https://www.linkedin.com/in/aman-devops/)
-[![GitHub](https://img.shields.io/github/stars/AmanPathak-DevOps.svg?style=social)](https://github.com/AmanPathak-DevOps)
-[![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://hub.docker.com/u/avian19)
 
 ![Architecture](assets/Infra.gif)
 
@@ -30,8 +27,8 @@ Before you begin, ensure that you have the following installed:
 - **mysql**: Dockerfile and configurations for the MySQL database.
 
 ## Dockerfile(Database)
-![images/33.PNG](https://github.com/chitt31/chitt31.github.io/blob/master/images/33.PNG) 
-![Dockerfile][{{https://github.com/chitt31/chitt31.github.io}}/blob/master/images/33.PNG]
+![image](/blob/master/images/33.PNG) 
+
 ## Dockerfile(Backend)
 
 ## Dockerfile(Frontend)
