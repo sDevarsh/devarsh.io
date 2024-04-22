@@ -31,7 +31,7 @@ Before you begin, ensure that you have the following installed:
 
 ## Dockerfile(Database)
 ![images/33.PNG](https://github.com/chitt31/chitt31.github.io/blob/master/images/33.PNG) 
-
+![Dockerfile][{{https://github.com/chitt31/chitt31.github.io}}/blob/master/images/33.PNG]
 ## Dockerfile(Backend)
 
 ## Dockerfile(Frontend)
