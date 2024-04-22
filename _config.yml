@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: Chitt Soni
+name: Chitt Soni (21BCP303)
 
 # Short bio or description (displayed in the header)
 description: Docker 3 Tier Architecture Tutorial
@@ -33,7 +33,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url:https://chitt31.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
