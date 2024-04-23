@@ -16,7 +16,7 @@ Before you begin, ensure that you have the following installed:
 
 ## Dockerfile(Backend)
 
-![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/docbak.png)
+![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/docback.png)
 
 ## Dockerfile(Frontend)
 
