@@ -1,5 +1,4 @@
 
-layout: post
 title: Docker Three Tier Architecture 
 ---
 
