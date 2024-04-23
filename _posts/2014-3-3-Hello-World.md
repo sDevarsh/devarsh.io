@@ -16,15 +16,15 @@ Before you begin, ensure that you have the following installed:
 
 ## Dockerfile(Backend)
 
-![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/docbak.png)
+![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/docbak.png)
 
 ## Dockerfile(Frontend)
 
-![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/docfront.png)
+![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/docfront.png)
 
 ## nginx.conf(Frontend)
 
-![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/ngnix.png)
+![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/ngnix.png)
 
 ## Deployment Steps
 
@@ -35,12 +35,12 @@ Before you begin, ensure that you have the following installed:
      ```bash
      docker build -t 21bcp435d-backend .
      ```
-     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/buildback.png)
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/buildback.png)
    - Run the backend container:
      ```bash
      docker run -d -p 3000:3000 21bcp435d-backend
      ```
-     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/runback.png)
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/runback.png)
 
 2. **Frontend Application:**
 
@@ -49,12 +49,12 @@ Before you begin, ensure that you have the following installed:
      ```bash
      docker build -t 21bcp435d-frontend .
      ```
-     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/buildfront.png)
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/buildfront.png)
    - Run the frontend container:
      ```bash
      docker run -d -p 80:80 21bcp435d-frontend-container
      ```
-     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/runfront.png)
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/runfront.png)
 
 3. **Push to Docker Hub:**
 
@@ -64,7 +64,7 @@ Before you begin, ensure that you have the following installed:
      docker tag 21bcp453d-frontend shingaladevarsh1/21bcp435d-frontend
      docker push shingaladevarsh1/21bcp435d-frontend
      ```
-     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/uploadfront.png)
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/uploadfront.png)
    - Push Backend Docker image:
 
      ```bash
@@ -73,14 +73,14 @@ Before you begin, ensure that you have the following installed:
 
      ```
 
-     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/uploadback.png)
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/uploadback.png)
 
 4. **Images of Docker Hub:**
 
    - Repositories Images.
-     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/hub.png)
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/hub.png)
 
 5. **Access the Application:**
 
    Open your favorite browser and visit [http://localhost:80](http://localhost:80). Enjoy the application!
-   ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/website.png)
+   ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/website.png)
