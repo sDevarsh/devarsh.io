@@ -11,4 +11,4 @@ Docker Project
 
 ### Contact me
 
-[email@domain.com](mailto:chittsoni123@domain.com)
+[email@domain.com](mailto:chittsoni123@gmail.com)
