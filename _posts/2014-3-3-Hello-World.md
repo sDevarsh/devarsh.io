@@ -1,10 +1,86 @@
----
-layout: post
-title: You're up and running!
----
+## Title: Create any three-tier application using Docker.
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+# Create any three-tier application using Docker.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+## Prerequisites
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Before you begin, ensure that you have the following installed:
+
+- [Docker](https://www.docker.com/get-started)
+
+## Project Structure
+
+- **Backend**: Node.js .
+- **Frontend**: Angular.
+- **Database**: SqLite.
+
+## Dockerfile(Backend)
+
+![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/docbak.png)
+
+## Dockerfile(Frontend)
+
+![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/docfront.png)
+
+## nginx.conf(Frontend)
+
+![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/ngnix.png)
+
+## Deployment Steps
+
+1. **Backend Application:**
+
+   - Navigate to the `backend` directory.
+   - Build the backend Docker image:
+     ```bash
+     docker build -t 21bcp435d-backend .
+     ```
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/buildback.png)
+   - Run the backend container:
+     ```bash
+     docker run -d -p 3000:3000 21bcp435d-backend
+     ```
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/runback.png)
+
+2. **Frontend Application:**
+
+   - Navigate to the `frontend` directory.
+   - Build the frontend Docker image:
+     ```bash
+     docker build -t 21bcp435d-frontend .
+     ```
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/buildfront.png)
+   - Run the frontend container:
+     ```bash
+     docker run -d -p 80:80 21bcp435d-frontend-container
+     ```
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/runfront.png)
+
+3. **Push to Docker Hub:**
+
+   - Create repository in Docker Hub for Backend and Frontend
+   - Push Frontend Docker image:
+     ```bash
+     docker tag 21bcp453d-frontend shingaladevarsh1/21bcp435d-frontend
+     docker push shingaladevarsh1/21bcp435d-frontend
+     ```
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/uploadfront.png)
+   - Push Backend Docker image:
+
+     ```bash
+     docker tag 21bcp453d-backend shingaladevarsh1/21bcp435d-backend
+     docker push shingaladevarsh1/21bcp435d-backend
+
+     ```
+
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/uploadback.png)
+
+4. **Images of Docker Hub:**
+
+   - Repositories Images.
+     ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/hub.png)
+
+5. **Access the Application:**
+
+   Open your favorite browser and visit [http://localhost:80](http://localhost:80). Enjoy the application!
+   ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh1.github.io/master/images/website.png)
