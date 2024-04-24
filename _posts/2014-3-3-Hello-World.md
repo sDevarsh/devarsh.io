@@ -1,6 +1,6 @@
 Title: Create any three-tier application using Docker.
 ---
-## Three-tier application using Docker.
+# Three-tier application using Docker.
 
 ## Prerequisites
 
@@ -27,7 +27,6 @@ Before you begin, ensure that you have the following installed:
 ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/ngnix.png)
 
 ## Deployment Steps
-
 0. **Backend Application:**
 
    - Navigate to the `backend` directory.
