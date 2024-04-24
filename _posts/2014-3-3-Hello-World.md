@@ -81,8 +81,3 @@ Before you begin, ensure that you have the following installed:
    Open your favorite browser and visit [http://localhost:80](http://localhost:80). Enjoy the application!
    ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/website.png)
 
-## Data Persistence
-
-Data persistence is ensured by using Docker volumes. If the MySQL container is deleted, data remains available and is automatically added to a new Docker container by providing the same Docker volume.
-
-Feel free to explore and modify the Dockerfiles to enhance your understanding of containerization and deployment! Happy coding! 🚀
