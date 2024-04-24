@@ -2,7 +2,7 @@
 title: Docker Three Tier Architecture 
 ---
 
-# Three-Tier Application Deployment using Dockerfile
+# Three-Tier Application Deployment using DockerfilevThree-Tier Application Deployment using DockerfileThree-Tier Application Deployment using Dockerfile
 
 
 ## Prerequisites
