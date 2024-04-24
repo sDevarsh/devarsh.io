@@ -2,8 +2,6 @@ Title: Create any three-tier application using Docker.
 ---
 ## Three-tier application using Docker.
 
-# Create any three-tier application using Docker.
-
 ## Prerequisites
 
 Before you begin, ensure that you have the following installed:
