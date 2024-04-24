@@ -1,5 +1,5 @@
-
 Title: Create any three-tier application using Docker.
+---
 ## Title: Create any three-tier application using Docker.
 
 # Create any three-tier application using Docker.
@@ -71,7 +71,6 @@ Before you begin, ensure that you have the following installed:
      ```bash
      docker tag 21bcp453d-backend shingaladevarsh1/21bcp435d-backend
      docker push shingaladevarsh1/21bcp435d-backend
-
      ```
      ![Alt Text](https://raw.githubusercontent.com/sDevarsh/devarsh.io/master/images/uploadback.png)
 
